@@ -1,0 +1,317 @@
+
+body {
+  font-family: arial;
+}
+
+/* ---------- */
+/* Lesson 16a */
+/* ---------- */
+
+.header-16a {
+  display: flex;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: rgb(34, 34, 34);
+  box-shadow: 0px 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(34, 34, 34);
+}
+
+.left {
+  padding-bottom: 40px;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+
+.youtubeicon1 {
+ width: 35px;
+ position: relative;
+ bottom: 2px;
+}
+
+.youtubeicon2 {
+  width: 70px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.middle-16a {
+  position: relative;
+  left: 550px;
+  bottom: 22px;
+  display: flex;
+}
+
+.search {
+  width: 400px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 20px;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid rgb(48, 48, 48);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.searchbutton-16a{
+  background-color: rgb(48, 48, 48);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 50px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-right: 25px;
+  position: absolute;
+  right: 0;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.picture-16a {
+  width: 20px;
+  position: relative;
+  left: 7px;
+  top: 4px;
+}
+
+.searchbutton-16a:active {
+  background-color: rgba(48, 48, 48, 0.5);
+}
+
+.right-16a {
+  position: relative;
+  right: 100px;
+  bottom: 13px;
+  display: flex;
+}
+
+.notif-icon-16a {
+  width: 25px;
+}
+
+.profil{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.profil2-16a {
+  position: relative;
+  bottom: 7px;
+  left: 20px;
+}
+
+
+.left .tooltip,
+.searchbutton-16a .tooltip,
+.notif-icon-16a .tooltip,
+.profil2-16a .tooltip {
+  position: absolute;
+  padding: 10px;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  border: 1px solid white;
+  font-size: 12px;
+  bottom: -10px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.searchbutton-16a .tooltip {
+  bottom: -40px;
+}
+
+.notif-icon-16a .tooltip {
+  bottom: -35px;
+}
+
+.profil2-16a .tooltip{
+  bottom: -45px;
+}
+
+.left:hover .tooltip,
+.searchbutton-16a:hover .tooltip,
+.notif-icon-16a:hover .tooltip,
+.profil2-16a:hover .tooltip {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+/* ---------- */
+/* Lesson 16b-16c */
+/* ---------- */
+
+.column-video {
+  display: flex;
+  position: relative;
+  left: 30px;
+  top: 110px;
+  padding-right: 60px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  margin-left: 30px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-video-16b {
+  width: 260px;
+  text-decoration: none;
+  font-size: 10px;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.iconchannel {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.thumbnail-16c {
+  width: 300px;
+  height: 155px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.channelname {
+  color: gray;
+  font-size: 8.5px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.channelname:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.info-video {
+  color: gray;
+  font-size: 8.5px;
+  font-weight: bold;
+  margin-left: 40px;
+  line-height: 8px;
+}
+
+.channelname-tooltip {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  top: 5px;
+  margin-left: 5px;
+}
+
+.channelnameanby-tooltip {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  top: 5px;
+  margin-left: 10px;
+  padding-right: 5px;
+}
+
+.iconchannelanby {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.iconchannellumie {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.subscriber {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelname-subscriber {
+  color: gray;
+  font-size: 8.5px;
+  font-weight: bold;
+}
+
+.title-tooltip-anby .tooltip,
+.title-tooltip-herobrine .tooltip,
+.channelCJM .tooltip,
+.channelanby .tooltip {
+  position: absolute;
+  padding: 5px;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  border: 1px solid white;
+  font-size: 9px;
+  bottom: -10px;
+  left: 50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.title-tooltip-herobrine .tooltip {
+  left: 440px;
+}
+
+.channellumie .tooltip {
+  display: flex;
+  flex-direction: row;
+  left: 370px;
+  bottom: -30px
+}
+
+.channelanby .tooltip {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-tooltip-anby:hover .tooltip,
+.title-tooltip-herobrine:hover .tooltip,
+.channellumie:hover .tooltip,
+.channelanby:hover:hover .tooltip {
+  opacity: 1;
+  transition-delay: 0.5s;
+}

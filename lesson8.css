@@ -1,0 +1,91 @@
+ .container {
+   display: inline-block
+ }
+
+ .text {
+   display: inline-block;
+   margin: 0;
+   vertical-align: middle;
+ }
+
+ .button {
+   display: inline-block;
+   margin-left: 5px;
+   padding: 5px 10px;
+   border: 1px solid #000;
+   background-color: #fff;
+   cursor: pointer;
+   vertical-align: middle;
+ }
+
+
+
+ .search-input {
+   border-radius: 4px;
+   padding: 10px 20px;
+   width: 12%;
+
+ }
+
+ .kamen {
+   border-radius: 4px;
+   padding: 10px 20px;
+   width: 12%;
+ }
+
+ .rider {
+   width: 27%;
+   height: 29px;
+   border-radius: 4px;
+   padding: 10px 20px;
+ }
+
+ .saber {
+   font-family: arial;
+   font-size: 16px;
+   color: white;
+   width: 30%;
+   background-color: blue;
+   border-radius: 5px;
+   padding: 10px;
+   cursor: pointer;
+ }
+
+
+ .revice {
+   width: 27%;
+   height: 19px;
+   border-radius: none;
+   padding: 10px 20px;
+   background-color: #D0DDD0;
+   color: black;
+   border: none;
+ }
+
+ .revan {
+   width: 27%;
+   height: 19px;
+   padding: 10px 20px;
+   background-color: #D0DDD0;
+   color: black;
+   border: none;
+ }
+
+ .bayu {
+   width: 12%;
+   padding: 10px 20px;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+
+ .andriana {
+   width: 12%;
+   height: 40px;
+   padding: 10px 20px;
+   background-color: #D0DDD0;
+   color: #000;
+   border: none;
+   cursor: pointer;
+ }

@@ -1,0 +1,154 @@
+ .container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: px;
+}
+
+.text {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 20px;
+  font-family: arial;
+}
+
+.subtext {
+  font-size: 13px;
+  color: gray;
+}
+
+.follow-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.text {
+  flex-grow: 1;
+  margin-left: 20px;
+  font-family: arial;
+}
+
+.subtext {
+  font-size: 12px;
+  color: gray;
+}
+
+.follow-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 15px;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.thumbnail {
+  width: 198px;
+  height: 92px;
+}
+
+.text-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.text-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+
+.container {
+  display: flex;
+
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: justify;
+  width: 200px;
+  color: black;
+  font-family: arial;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  height: 197px;
+  object-fit: cover;
+  display: flex;
+  margin: 0 auto 10px;
+}
+
+.mutual-friends {
+  display: flex;
+  align-items: center
+}
+
+.mutual-friends img {
+  width: 30px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: auto;
+}
+
+button:hover {
+  background: darkblue;
+}
